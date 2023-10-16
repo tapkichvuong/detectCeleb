@@ -1,0 +1,37 @@
+{
+  "name": "detectceleb",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "expo": "~49.0.13",
+    "expo-camera": "^13.6.0",
+    "expo-constants": "^14.4.2",
+    "expo-dev-client": "~2.4.11",
+    "expo-image-manipulator": "^11.5.0",
+    "expo-media-library": "^15.6.0",
+    "expo-splash-screen": "^0.22.0",
+    "expo-status-bar": "^1.7.1",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.72.5",
+    "react-native-canvas": "^0.1.39",
+    "react-native-components": "^0.0.1",
+    "react-native-compressor": "^1.8.12",
+    "react-native-fs": "^2.20.0",
+    "react-native-image-resizer": "^1.4.5",
+    "react-native-web": "^0.19.9",
+    "react-native-webview": "^13.6.2",
+    "vector-icons": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
